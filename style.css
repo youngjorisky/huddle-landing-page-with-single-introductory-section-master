@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(257, 40%, 49%);
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 100%);
+}
+.huddle-container {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  min-width: 375px;
+}
+.social-media img {
+  padding: 3px;
+  width: 40px;
+}
+.upper {
+  background-image: url("images/bg-mobile.svg");
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  padding-bottom: 0;
+}
+.on-top {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.logo {
+  width: 40%;
+}
+h2 ul {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+.center-button {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%, 0.9);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-size: 1.2rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(215, 206, 224);
+}
+button:active {
+  background-color: rgb(167, 145, 187);
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.lighter {
+  opacity: 0.8;
+}
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 0%, 89%);
+}
