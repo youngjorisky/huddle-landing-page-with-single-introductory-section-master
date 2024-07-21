@@ -41,6 +41,9 @@ h2 ul {
   font-size: 2.1rem;
   font-weight: 500;
 }
+p {
+  display: none;
+}
 .center-button {
   text-align: center;
   margin-top: 30px;
@@ -71,9 +74,66 @@ button:active {
   opacity: 0.8;
 }
 .attribution {
+  display: block;
   font-size: 13px;
   text-align: center;
+  color: white;
 }
 .attribution a {
-  color: hsl(0, 0%, 89%);
+  color: hsl(241, 80%, 52%);
+}
+@media (min-width: 1440px) {
+  .huddle-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/bg-desktop.svg");
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .upper {
+    background-image: none;
+  }
+  .upper {
+    width: 55%;
+    padding-left: 70px;
+  }
+  .lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    width: 32%;
+  }
+  ul {
+    text-align: left;
+  }
+  .center-button {
+    text-align: left;
+  }
+  .social-media {
+    justify-content: end;
+    align-items: end;
+  }
+  button {
+    margin-bottom: 100px;
+  }
+  h2 ul {
+    padding-top: 100px;
+  }
+  .lighter {
+    display: none;
+  }
+  p {
+    display: block;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%, 0.8);
+  }
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(245, 81%, 49%);
+  }
 }
