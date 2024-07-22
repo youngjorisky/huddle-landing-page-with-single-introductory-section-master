@@ -16,6 +16,7 @@ ul {
   font-family: "Poppins", sans-serif;
   width: 100vw;
   min-width: 375px;
+  /*optimum screen sixe selected*/
 }
 .social-media img {
   padding: 3px;
@@ -82,7 +83,8 @@ button:active {
 .attribution a {
   color: hsl(241, 80%, 52%);
 }
-@media (min-width: 1440px) {
+@media (min-width: 1300px) {
+  /*intentionally adjusting the screen size to meet different brands*/
   .huddle-container {
     display: flex;
     flex-direction: row;
